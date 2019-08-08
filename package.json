@@ -1,0 +1,17 @@
+{
+    "scripts": {
+        "build": "webpack",
+        "start:dev": "webpack-dev-server"
+    },
+    "devDependencies": {
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "webpack": "^4.39.1",
+        "webpack-cli": "^3.3.6",
+        "webpack-dev-server": "^3.7.2"
+    },
+    "dependencies": {
+        "@mobsya/thymio-api": "^0.10.1",
+        "websocket": "^1.0.29"
+    }
+}
